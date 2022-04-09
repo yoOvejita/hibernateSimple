@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.ejemplo.hibernateSimple.Estudiante" table="estudiante">
+		<id name="id" type="int" column="id">
+			
+		</id>
+		<property name="nombre" type="string" column="nombre"></property>
+		<property name="apellido" type="string" column="apellido"></property>
+		<property name="fechaNac" type="calendar" column="fecha"></property>
+	</class>
+</hibernate-mapping>
